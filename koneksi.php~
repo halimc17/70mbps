@@ -1,0 +1,5 @@
+<?php
+include "global.php";
+if(mysql_connect("localhost", $dbusername, $dbpassword)or die("Tidak bisa melakukan koneksi ke server database")){echo "koneksi berhasil";}
+mysql_select_db($dbname)or die("Tidak bisa melakukan pemilihan database");
+?>

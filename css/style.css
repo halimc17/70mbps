@@ -1,0 +1,30 @@
+body{font-family:arial, helvetica;}
+p {
+    margin:5px;
+}
+.user {
+    background-image:url(../jslib/ext4/examples/shared/icons/fam/user.png);
+}
+.addUser {
+    background-image:url(../jslib/ext4/examples/shared/icons/fam/user_add.png);
+}
+.editUser {
+    background-image:url(../jslib/ext4/examples/shared/icons/fam/user_edit.png);
+}
+.settings {
+    background-image:url(../jslib/ext4/examples/shared/icons/fam/folder_wrench.png);
+}
+.nav {
+    background-image:url(../jslib/ext4/examples/shared/icons/fam/folder_go.png);
+}
+.list {
+    background-image:url(../jslib/ext4/examples/shared/icons/fam/application_view_list.png);
+}
+.info {
+    background-image:url(../jslib/ext4/examples/shared/icons/fam/information.png);
+}
+.image {
+    background-image:url(../jslib/ext4/examples/shared/icons/fam/image_add.png);
+}
+#logo{float:left;margin-top:10px;margin-left:10px;}
+#logo_tims{float:right;margin-top:10px;margin-right:10px;}

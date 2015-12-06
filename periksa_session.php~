@@ -1,0 +1,14 @@
+<?php
+	if (isset($_SESSION["user_username"])) {
+		session_start();
+	}else{
+		header("location:login.php");
+	}
+
+	/*if(!session_is_registered("user_username"))
+	{
+		header("location:login.php");
+		//echo "belum ada session"
+	}*/	
+	
+?>
